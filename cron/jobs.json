@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "f43d1b24-5752-4b06-900b-402d2dc9dcf0",
+      "agentId": "trend_analyst",
+      "name": "Daily industry trend analysis",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1773338423051,
+      "updatedAtMs": 1773338898429,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 86400000,
+        "anchorMs": 1773338423051
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Daily brief (last 24 hours). Collect and analyze industry developments related to autonomous driving and ADAS from the past 24 hours. Return a single JSON report following the schema described below. Use at most 30 source items, cluster into up to 8 themes, and escalate any item meeting escalation rules. Use America/Detroit timezone to interpret dates if needed."
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "whatsapp",
+        "bestEffort": false
+      },
+      "state": {
+        "nextRunAtMs": 1773424823051,
+        "lastRunAtMs": 1773338685304,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 213125,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>",
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1
+      }
+    }
+  ]
+}

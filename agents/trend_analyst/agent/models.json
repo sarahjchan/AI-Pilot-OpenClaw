@@ -1,0 +1,28 @@
+{
+  "providers": {
+    "ollama": {
+      "baseUrl": "http://127.0.0.1:11434",
+      "apiKey": "ollama-local",
+      "api": "ollama",
+      "models": [
+        {
+          "id": "minimax-m2.5:cloud",
+          "name": "minimax-m2.5:cloud",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 204800,
+          "maxTokens": 128000,
+          "api": "ollama"
+        }
+      ]
+    }
+  }
+}

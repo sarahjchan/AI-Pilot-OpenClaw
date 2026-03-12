@@ -1,0 +1,23 @@
+{
+  "id": "openclaw-web-search",
+  "name": "Ollama Web Search",
+  "description": "Web search via ollama",
+  "uiHints": {
+    "apiKey": {
+      "label": "Ollama API Key",
+      "placeholder": "Paste a key from ollama.com/settings/keys",
+      "help": "Create a key at https://ollama.com/settings/keys.",
+      "sensitive": true
+    }
+  },
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "apiKey": {
+        "type": "string",
+        "description": "Ollama API key."
+      }
+    }
+  }
+}

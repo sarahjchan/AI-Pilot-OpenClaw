@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.11",
+    "lastTouchedAt": "2026-03-12T16:37:29.624Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-03-12T15:42:17.183Z",
+    "lastRunVersion": "2026.3.11",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local"
+  },
+  "models": {
+    "providers": {
+      "ollama": {
+        "baseUrl": "http://127.0.0.1:11434",
+        "apiKey": "ollama-local",
+        "api": "ollama",
+        "models": [
+          {
+            "id": "minimax-m2.5:cloud",
+            "name": "minimax-m2.5:cloud",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 204800,
+            "maxTokens": 128000
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "ollama/minimax-m2.5:cloud"
+      },
+      "models": {
+        "Ollama/Demo": {}
+      },
+      "workspace": "/home/sarah/.openclaw/workspace"
+    },
+    "list": [
+      {
+        "id": "main",
+        "identity": {
+          "name": "leader"
+        }
+      },
+      {
+        "id": "trend_analyst",
+        "name": "trend_analyst",
+        "workspace": "/home/sarah/.openclaw/workspace-trend_analyst",
+        "agentDir": "/home/sarah/.openclaw/agents/trend_analyst/agent"
+      }
+    ]
+  },
+  "tools": {
+    "profile": "coding",
+    "web": {
+      "search": {
+        "enabled": false
+      }
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "0f5eead2173198c668527fcc0370708d17a99ec2a8ee74c5"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "contacts.add",
+        "calendar.add",
+        "reminders.add",
+        "sms.send"
+      ]
+    }
+  },
+  "plugins": {
+    "entries": {
+      "openclaw-web-search": {
+        "enabled": true
+      }
+    }
+  }
+}
