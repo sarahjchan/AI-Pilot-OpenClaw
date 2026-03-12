@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.11",
-    "lastTouchedAt": "2026-03-12T17:59:56.031Z"
+    "lastTouchedAt": "2026-03-12T18:43:33.527Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-12T17:59:56.000Z",
@@ -70,6 +70,12 @@
         "name": "safety_analyst",
         "workspace": "/home/sarah/.openclaw/workspace-safety_analyst",
         "agentDir": "/home/sarah/.openclaw/agents/safety_analyst/agent"
+      },
+      {
+        "id": "tester",
+        "name": "tester",
+        "workspace": "/home/sarah/.openclaw/workspace-tester",
+        "agentDir": "/home/sarah/.openclaw/agents/tester/agent"
       }
     ]
   },

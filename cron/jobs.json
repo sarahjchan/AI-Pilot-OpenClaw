@@ -35,6 +35,33 @@
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 1
       }
+    },
+    {
+      "id": "d16c4171-460f-4176-944f-7e03d787b73a",
+      "name": "Weekly safety document analysis",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1773341492551,
+      "updatedAtMs": 1773341492551,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 604800000,
+        "anchorMs": 1773341492551
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Review the provided local safety-related document(s).\n\nYour task:\n1. Summarize the document’s safety-relevant content.\n2. Extract explicit safety claims, assumptions, hazards, mitigations, and validation claims.\n3. Identify gaps, contradictions, ambiguities, unsupported claims, and missing evidence.\n4. Assess each issue by severity, confidence, and urgency.\n5. Recommend follow-up actions for leader, tester, or coder.\n\nUse only the provided document content unless explicitly instructed otherwise.\nReturn a structured report."
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "whatsapp",
+        "bestEffort": false
+      },
+      "state": {
+        "nextRunAtMs": 1773946292551
+      }
     }
   ]
 }

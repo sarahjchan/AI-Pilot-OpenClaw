@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.11",
-    "lastTouchedAt": "2026-03-12T17:17:14.277Z"
+    "lastTouchedAt": "2026-03-12T17:59:39.946Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-12T15:42:17.183Z",
@@ -90,6 +90,19 @@
   "session": {
     "dmScope": "per-channel-peer"
   },
+  "channels": {
+    "whatsapp": {
+      "enabled": true,
+      "dmPolicy": "allowlist",
+      "selfChatMode": true,
+      "allowFrom": [
+        "+16504525415"
+      ],
+      "groupPolicy": "allowlist",
+      "debounceMs": 0,
+      "mediaMaxMb": 50
+    }
+  },
   "gateway": {
     "port": 18789,
     "mode": "local",
@@ -117,6 +130,9 @@
   "plugins": {
     "entries": {
       "openclaw-web-search": {
+        "enabled": true
+      },
+      "whatsapp": {
         "enabled": true
       }
     }
