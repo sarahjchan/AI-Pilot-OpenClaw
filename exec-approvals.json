@@ -1,7 +1,7 @@
 {
   "version": 1,
   "socket": {
-    "path": "/home/sarah/.openclaw/exec-approvals.sock",
+    "path": "/home/ubuntu/.openclaw/exec-approvals.sock",
     "token": "H79xUcEtrH_-VsQJmFYB_ZTE95dJRFg3"
   },
   "defaults": {},

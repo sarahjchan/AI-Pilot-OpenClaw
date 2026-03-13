@@ -5,10 +5,10 @@
       "id": "f43d1b24-5752-4b06-900b-402d2dc9dcf0",
       "agentId": "trend_analyst",
       "name": "Daily industry trend analysis",
-      "enabled": true,
+      "enabled": false,
       "deleteAfterRun": true,
       "createdAtMs": 1773338423051,
-      "updatedAtMs": 1773338898429,
+      "updatedAtMs": 1773341703531,
       "schedule": {
         "kind": "every",
         "everyMs": 86400000,
@@ -26,7 +26,6 @@
         "bestEffort": false
       },
       "state": {
-        "nextRunAtMs": 1773424823051,
         "lastRunAtMs": 1773338685304,
         "lastRunStatus": "error",
         "lastStatus": "error",
@@ -39,10 +38,10 @@
     {
       "id": "d16c4171-460f-4176-944f-7e03d787b73a",
       "name": "Weekly safety document analysis",
-      "enabled": true,
+      "enabled": false,
       "deleteAfterRun": true,
       "createdAtMs": 1773341492551,
-      "updatedAtMs": 1773341492551,
+      "updatedAtMs": 1773341701325,
       "schedule": {
         "kind": "every",
         "everyMs": 604800000,
@@ -59,9 +58,7 @@
         "channel": "whatsapp",
         "bestEffort": false
       },
-      "state": {
-        "nextRunAtMs": 1773946292551
-      }
+      "state": {}
     }
   ]
 }

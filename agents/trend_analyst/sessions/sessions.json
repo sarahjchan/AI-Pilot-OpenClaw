@@ -26,32 +26,32 @@
         {
           "name": "healthcheck",
           "description": "Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security audits, firewall/SSH/update hardening, risk posture, exposure review, OpenClaw cron scheduling for periodic checks, or version status checks on a machine running OpenClaw (laptop, workstation, Pi, VPS).",
-          "filePath": "/home/sarah/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/healthcheck/SKILL.md",
-          "baseDir": "/home/sarah/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/healthcheck",
+          "filePath": "/home/ubuntu/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/healthcheck/SKILL.md",
+          "baseDir": "/home/ubuntu/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/healthcheck",
           "source": "openclaw-bundled",
           "disableModelInvocation": false
         },
         {
           "name": "skill-creator",
           "description": "Create, edit, improve, or audit AgentSkills. Use when creating a new skill from scratch or when asked to improve, review, audit, tidy up, or clean up an existing skill or SKILL.md file. Also use when editing or restructuring a skill directory (moving files to references/ or scripts/, removing stale content, validating against the AgentSkills spec). Triggers on phrases like \"create a skill\", \"author a skill\", \"tidy up a skill\", \"improve this skill\", \"review the skill\", \"clean up the skill\", \"audit the skill\".",
-          "filePath": "/home/sarah/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/skill-creator/SKILL.md",
-          "baseDir": "/home/sarah/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/skill-creator",
+          "filePath": "/home/ubuntu/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/skill-creator/SKILL.md",
+          "baseDir": "/home/ubuntu/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/skill-creator",
           "source": "openclaw-bundled",
           "disableModelInvocation": false
         },
         {
           "name": "video-frames",
           "description": "Extract frames or short clips from videos using ffmpeg.",
-          "filePath": "/home/sarah/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/video-frames/SKILL.md",
-          "baseDir": "/home/sarah/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/video-frames",
+          "filePath": "/home/ubuntu/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/video-frames/SKILL.md",
+          "baseDir": "/home/ubuntu/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/video-frames",
           "source": "openclaw-bundled",
           "disableModelInvocation": false
         },
         {
           "name": "weather",
           "description": "Get current weather and forecasts via wttr.in or Open-Meteo. Use when: user asks about weather, temperature, or forecasts for any location. NOT for: historical weather data, severe weather alerts, or detailed meteorological analysis. No API key needed.",
-          "filePath": "/home/sarah/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/weather/SKILL.md",
-          "baseDir": "/home/sarah/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/weather",
+          "filePath": "/home/ubuntu/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/weather/SKILL.md",
+          "baseDir": "/home/ubuntu/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/weather",
           "source": "openclaw-bundled",
           "disableModelInvocation": false
         }
@@ -67,7 +67,7 @@
       "sessionKey": "agent:trend_analyst:cron:f43d1b24-5752-4b06-900b-402d2dc9dcf0",
       "provider": "ollama",
       "model": "minimax-m2.5:cloud",
-      "workspaceDir": "/home/sarah/.openclaw/workspace-trend_analyst",
+      "workspaceDir": "/home/ubuntu/.openclaw/workspace-trend_analyst",
       "bootstrapMaxChars": 20000,
       "bootstrapTotalMaxChars": 150000,
       "bootstrapTruncation": {
@@ -89,7 +89,7 @@
       "injectedWorkspaceFiles": [
         {
           "name": "AGENTS.md",
-          "path": "/home/sarah/.openclaw/workspace-trend_analyst/AGENTS.md",
+          "path": "/home/ubuntu/.openclaw/workspace-trend_analyst/AGENTS.md",
           "missing": false,
           "rawChars": 7809,
           "injectedChars": 7809,
@@ -97,7 +97,7 @@
         },
         {
           "name": "SOUL.md",
-          "path": "/home/sarah/.openclaw/workspace-trend_analyst/SOUL.md",
+          "path": "/home/ubuntu/.openclaw/workspace-trend_analyst/SOUL.md",
           "missing": false,
           "rawChars": 12572,
           "injectedChars": 12572,
@@ -105,7 +105,7 @@
         },
         {
           "name": "TOOLS.md",
-          "path": "/home/sarah/.openclaw/workspace-trend_analyst/TOOLS.md",
+          "path": "/home/ubuntu/.openclaw/workspace-trend_analyst/TOOLS.md",
           "missing": false,
           "rawChars": 850,
           "injectedChars": 850,
@@ -113,7 +113,7 @@
         },
         {
           "name": "IDENTITY.md",
-          "path": "/home/sarah/.openclaw/workspace-trend_analyst/IDENTITY.md",
+          "path": "/home/ubuntu/.openclaw/workspace-trend_analyst/IDENTITY.md",
           "missing": false,
           "rawChars": 633,
           "injectedChars": 633,
@@ -121,7 +121,7 @@
         },
         {
           "name": "USER.md",
-          "path": "/home/sarah/.openclaw/workspace-trend_analyst/USER.md",
+          "path": "/home/ubuntu/.openclaw/workspace-trend_analyst/USER.md",
           "missing": false,
           "rawChars": 474,
           "injectedChars": 474,
@@ -281,32 +281,32 @@
         {
           "name": "healthcheck",
           "description": "Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security audits, firewall/SSH/update hardening, risk posture, exposure review, OpenClaw cron scheduling for periodic checks, or version status checks on a machine running OpenClaw (laptop, workstation, Pi, VPS).",
-          "filePath": "/home/sarah/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/healthcheck/SKILL.md",
-          "baseDir": "/home/sarah/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/healthcheck",
+          "filePath": "/home/ubuntu/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/healthcheck/SKILL.md",
+          "baseDir": "/home/ubuntu/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/healthcheck",
           "source": "openclaw-bundled",
           "disableModelInvocation": false
         },
         {
           "name": "skill-creator",
           "description": "Create, edit, improve, or audit AgentSkills. Use when creating a new skill from scratch or when asked to improve, review, audit, tidy up, or clean up an existing skill or SKILL.md file. Also use when editing or restructuring a skill directory (moving files to references/ or scripts/, removing stale content, validating against the AgentSkills spec). Triggers on phrases like \"create a skill\", \"author a skill\", \"tidy up a skill\", \"improve this skill\", \"review the skill\", \"clean up the skill\", \"audit the skill\".",
-          "filePath": "/home/sarah/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/skill-creator/SKILL.md",
-          "baseDir": "/home/sarah/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/skill-creator",
+          "filePath": "/home/ubuntu/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/skill-creator/SKILL.md",
+          "baseDir": "/home/ubuntu/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/skill-creator",
           "source": "openclaw-bundled",
           "disableModelInvocation": false
         },
         {
           "name": "video-frames",
           "description": "Extract frames or short clips from videos using ffmpeg.",
-          "filePath": "/home/sarah/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/video-frames/SKILL.md",
-          "baseDir": "/home/sarah/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/video-frames",
+          "filePath": "/home/ubuntu/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/video-frames/SKILL.md",
+          "baseDir": "/home/ubuntu/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/video-frames",
           "source": "openclaw-bundled",
           "disableModelInvocation": false
         },
         {
           "name": "weather",
           "description": "Get current weather and forecasts via wttr.in or Open-Meteo. Use when: user asks about weather, temperature, or forecasts for any location. NOT for: historical weather data, severe weather alerts, or detailed meteorological analysis. No API key needed.",
-          "filePath": "/home/sarah/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/weather/SKILL.md",
-          "baseDir": "/home/sarah/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/weather",
+          "filePath": "/home/ubuntu/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/weather/SKILL.md",
+          "baseDir": "/home/ubuntu/.nvm/versions/node/v22.22.1/lib/node_modules/openclaw/skills/weather",
           "source": "openclaw-bundled",
           "disableModelInvocation": false
         }
@@ -322,7 +322,7 @@
       "sessionKey": "agent:trend_analyst:cron:f43d1b24-5752-4b06-900b-402d2dc9dcf0",
       "provider": "ollama",
       "model": "minimax-m2.5:cloud",
-      "workspaceDir": "/home/sarah/.openclaw/workspace-trend_analyst",
+      "workspaceDir": "/home/ubuntu/.openclaw/workspace-trend_analyst",
       "bootstrapMaxChars": 20000,
       "bootstrapTotalMaxChars": 150000,
       "bootstrapTruncation": {
@@ -344,7 +344,7 @@
       "injectedWorkspaceFiles": [
         {
           "name": "AGENTS.md",
-          "path": "/home/sarah/.openclaw/workspace-trend_analyst/AGENTS.md",
+          "path": "/home/ubuntu/.openclaw/workspace-trend_analyst/AGENTS.md",
           "missing": false,
           "rawChars": 7809,
           "injectedChars": 7809,
@@ -352,7 +352,7 @@
         },
         {
           "name": "SOUL.md",
-          "path": "/home/sarah/.openclaw/workspace-trend_analyst/SOUL.md",
+          "path": "/home/ubuntu/.openclaw/workspace-trend_analyst/SOUL.md",
           "missing": false,
           "rawChars": 12572,
           "injectedChars": 12572,
@@ -360,7 +360,7 @@
         },
         {
           "name": "TOOLS.md",
-          "path": "/home/sarah/.openclaw/workspace-trend_analyst/TOOLS.md",
+          "path": "/home/ubuntu/.openclaw/workspace-trend_analyst/TOOLS.md",
           "missing": false,
           "rawChars": 850,
           "injectedChars": 850,
@@ -368,7 +368,7 @@
         },
         {
           "name": "IDENTITY.md",
-          "path": "/home/sarah/.openclaw/workspace-trend_analyst/IDENTITY.md",
+          "path": "/home/ubuntu/.openclaw/workspace-trend_analyst/IDENTITY.md",
           "missing": false,
           "rawChars": 633,
           "injectedChars": 633,
@@ -376,7 +376,7 @@
         },
         {
           "name": "USER.md",
-          "path": "/home/sarah/.openclaw/workspace-trend_analyst/USER.md",
+          "path": "/home/ubuntu/.openclaw/workspace-trend_analyst/USER.md",
           "missing": false,
           "rawChars": 474,
           "injectedChars": 474,
